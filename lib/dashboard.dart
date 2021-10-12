@@ -39,9 +39,7 @@ class _DashboardState extends State<Dashboard> {
     );
   }
 
-  // Future<void> makePayment() async {
-  //   final url = Uri.parse(uri);
-  // }
+  //!---------------- Stripe Code ----------------
 
   Future<Map<String, dynamic>?> createPaymentIntent(
       String amount, String currency, String stripeSecret) async {
@@ -68,8 +66,6 @@ class _DashboardState extends State<Dashboard> {
     }
     return null;
   }
-
-  //!-=----------
 
   Future<bool> openCheckoutCard(
       int amount,
@@ -113,4 +109,7 @@ class _DashboardState extends State<Dashboard> {
     }
     return false;
   }
+
+  //!---------------- Stripe Code ----------------
+
 }

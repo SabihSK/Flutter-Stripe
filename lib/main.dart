@@ -4,10 +4,6 @@ import 'package:flutter_stripe/flutter_stripe.dart';
 import 'dashboard.dart';
 
 void main() {
-  // init(String stripeId) {
-  //   Stripe.publishableKey = stripeId;
-  //   Stripe.merchantIdentifier = 'test';
-  // }
   WidgetsFlutterBinding.ensureInitialized();
   Stripe.publishableKey =
       'pk_test_51JP6JmI4ViauatGSX8QA0chQ5RWtjTRATjirbuDlQbpfwm8NJxKR9kVkuuND0RRWSSGkCBafYlNcXfDFrpFoMr7y00Ip7D03Od';
