@@ -1,6 +1,6 @@
-# stripe_payment_practice
+# Flutter-Stripe
 
-A new Flutter project.
+Payment in flutter using Flutter Stripe package.
 
 ## Getting Started
 
